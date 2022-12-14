@@ -1,11 +1,11 @@
-## Build an Image ##
+## Pull the Image ##
 
-```docker build --tag nci02 .```
+```docker push nikitapatel29/nikita_blockchain_x21224811:latest```
 
 
 ## Run an image ##
 
-```docker run --name ncilab02 -p 8090:8080 nci02```
+```docker run --name ncilab02 -p 8090:8080 nikitapatel29/nikita_blockchain_x21224811:latest ```
 
 ## Run the curl command ##
 
